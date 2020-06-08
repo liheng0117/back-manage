@@ -14,4 +14,6 @@ export default {
   adminUrl: 'https://elm.cangdu.org/admin/all',
   // 热门城市
   hotCityUrl: 'https://elm.cangdu.org/v1/cities?type=hot',
+  // 食品种类
+  foodsTypeUrl: 'https://elm.cangdu.org/v2/index_entry',
 }

@@ -13,6 +13,7 @@ import {
   orderlist,
   adminlist,
   addshop,
+  addgoods,
 } from '@/reducer'
 
 // 我要对哪些 reduce 的 state 做数据持久化
@@ -36,6 +37,7 @@ const myPersistReducer = persistReducer(
     orderlist,
     adminlist,
     addshop,
+    addgoods,
   })
 )
 

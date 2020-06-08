@@ -5,5 +5,15 @@ import foodlist from '@/reducer/foodlist'
 import orderlist from '@/reducer/orderlist'
 import adminlist from '@/reducer/adminlist'
 import addshop from '@/reducer/addshop'
+import addgoods from '@/reducer/addgoods'
 
-export { login, userlist, shoplist, foodlist, orderlist, adminlist, addshop }
+export {
+  login,
+  userlist,
+  shoplist,
+  foodlist,
+  orderlist,
+  adminlist,
+  addshop,
+  addgoods,
+}
